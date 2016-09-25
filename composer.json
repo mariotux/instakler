@@ -1,0 +1,27 @@
+{
+    "name": "instakler/instakler",
+    "description": "A library for accessing Instagram's API",
+    "keywords": ["library","instagram","instakler"],
+    "homepage": "http://instakler.com",
+    "license": "MIT",
+    "authors": [
+        {
+            "name": "Mario Nunes",
+            "email": "instakler@marionunes.com",
+            "homepage": "http://instakler.com"
+        }
+    ],
+    "require": {
+        "php": ">=5.6.0",
+        "guzzlehttp/guzzle": "^6.2",
+        "monolog/monolog": "^1.19"
+    },
+    "require-dev": {
+        "phpunit/phpunit": "^5"
+    },
+	"autoload": {
+		"psr-0": {
+			"Instakler": "src/"
+		}
+	}
+}
